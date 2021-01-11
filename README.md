@@ -19,7 +19,7 @@ Validation:
 I have tried to put basic Javax validation onto the entities/models.
 
 
-Security
+Security: 
 API security has been implemented with spring basic security.
 
 
