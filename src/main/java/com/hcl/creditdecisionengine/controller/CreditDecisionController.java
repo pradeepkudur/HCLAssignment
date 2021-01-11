@@ -32,7 +32,7 @@ public class CreditDecisionController {
 	private InvokeCreditDecisionService invokeCreditDecisionService;
 	
 	
-	@PostMapping("/applicant/getSanctionedLoanAmount")
+	@PostMapping("/creditDecision")
 	public ApplicantDetails getSanctionedLoanAmount(@Valid @RequestBody ApplicantDetails applicantDetails ){
 		return invokeCreditDecisionService.invokeService(applicantDetails);
 	}
